@@ -3,12 +3,14 @@
 This code is intended to collect the number of users from one segment at a time. Input will consist of start date, end date, view ID and segment ID. It will output to output.csv with three columns: start date, end date, number of users in segment.
 
 Example:
+```
 {
 "viewid":"12345678",
 "segmentid": "uNiQuE-IdEnTiFieR",
 "startdate": "2015-12-27", // this should be on the day of the week you want your data to look for
 "enddate": "2021-10-28" // this will be used to calculate the number of weeks to pull, so it won't stop exactly on this date unless you did the math right
 }
+```
 
 ## Set up Google Analytics
 
