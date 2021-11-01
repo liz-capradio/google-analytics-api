@@ -24,3 +24,4 @@ Example:
 1. Follow the instructions on how to set up a service account: https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-py?hl=en
 1. Add the credentials.json to the root.
 1. Create a 'setup.json' file with the details about your segment and the dates (format: "2021-10-28") you want to collect data for, keep in mind that the code will increment 7 days from the start date UNTIL the end date. (Change name of 'setup copy.json' to use)
+1. Run python script with everything in place and it should output. You can watch the data come through in the console.
