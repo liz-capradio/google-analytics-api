@@ -1,6 +1,6 @@
-# GA Segment data from Google API
+# User History From GA Segment
 
-This code is intended to collect the number of users from one segment at a time. Input will consist of start date, end date, view ID and segment ID. It will output to output.csv with three columns: start date, end date, number of users in segment.
+This code is intended to collect the number of users from one segment (in Google Analytics) at a time and output to a .csv. Input will consist of start date, end date, view ID and segment ID. It will output to output.csv with three columns: start date, end date, number of users in segment.
 
 Example:
 ```
